@@ -1,0 +1,27 @@
+GET http://localhost:5283/games
+###
+GET http://localhost:5283/games/1
+###
+POST http://localhost:5283/games
+Content-Type: application/json
+
+{
+    "name": "Ready or Not",
+    "genreId": 2,
+    "price": 24.99,
+    "releaseDate": "2023-12-13"
+}
+
+###
+PUT http://localhost:5283/games/1
+Content-Type: application/json
+
+{
+    "name": "High On Life",
+    "genreId":2 ,
+    "price": 30.94,
+    "releaseDate": "2022-12-13"
+}
+
+###
+DELETE http://localhost:5283/games/3
