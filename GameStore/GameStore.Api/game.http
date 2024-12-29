@@ -6,10 +6,10 @@ POST http://localhost:5283/games
 Content-Type: application/json
 
 {
-    "name": "Ready or Not",
+    "name": "Cyberpunk 2077",
     "genreId": 2,
-    "price": 24.99,
-    "releaseDate": "2023-12-13"
+    "price": 26.99,
+    "releaseDate": "2020-12-10"
 }
 
 ###

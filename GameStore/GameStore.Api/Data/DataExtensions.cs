@@ -9,5 +9,5 @@ public static class DataExtensions
         using var scope = app.Services.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<GameStoreContext>();
         await dbContext.Database.MigrateAsync();
-    } 
+    }
 }
